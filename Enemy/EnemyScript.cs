@@ -10,7 +10,7 @@ public class EnemyScript : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        
+
     }
 
     // Update is called once per frame
@@ -20,8 +20,15 @@ public class EnemyScript : MonoBehaviour
     }
 
     void walkLeft(){
-    	// transform.position.x = transform.position.x * 
-    	// ( walkSpeed * -1 );
         transform.Translate(Vector3.left * Time.deltaTime * walkSpeed);
-    } 
+    }
+
+
+    void OnTriggerEnter2D(Collider2D other)
+    {
+        if (other.gameObject.name == "insideDungeonTrigger" || other.gameObject.name == "insideDungeonTrigger(Clone)" ) {
+            Debug.Log("Out of Map ");
+            Destroy(gameObject);
+        }
+    }
 }
