@@ -23,7 +23,6 @@ public class EnemySpawnerScript : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        // InvokeRepeating("spawnEnemy", 2.0f, 0.3f); // apres deux secondes , appelle cette evenement toute les 3 secondes
         if (Time.time > nextSpawnTime ) {
             nextSpawnTime = Time.time+period;
             Debug.Log(period);
@@ -36,8 +35,15 @@ public class EnemySpawnerScript : MonoBehaviour
     }
 
     private Vector3 getRandomSpawnLine(){
-        int spawnValue = Random.Range(0, 3);
+        //int spawnValue = Random.Range(0, 3);
+        int spawnValue = RandomNumber(0, 3);
         Debug.Log(spawnValue);
         return linePositions[spawnValue];
+    }
+
+    public int RandomNumber(int min, int max)  
+    {  
+        System.Random random = new System.Random();
+        return random.Next(min, max);  
     }
 }
