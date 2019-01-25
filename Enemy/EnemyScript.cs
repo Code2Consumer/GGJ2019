@@ -27,7 +27,7 @@ public class EnemyScript : MonoBehaviour
     void OnTriggerEnter2D(Collider2D other)
     {
         if (other.gameObject.name == "insideDungeonTrigger" || other.gameObject.name == "insideDungeonTrigger(Clone)" ) {
-            Debug.Log("Out of Map ");
+            //Debug.Log("Out of Map ");
             Destroy(gameObject);
         }
     }
