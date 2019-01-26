@@ -30,7 +30,7 @@ public class EnemyScript : MonoBehaviour
         if (other.gameObject.name == "insideDungeon" || other.gameObject.name == "insideDungeon(Clone)" ) {
             other.gameObject.GetComponent<InsideDungeonScript>().removeLifePoints(damage);
             Destroy(gameObject);
-        }else if (other.gameObject.tag == "hit") {
+        }else if (other.gameObject.tag == "Attaque") {
             die();
         }
     }

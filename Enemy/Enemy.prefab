@@ -46,7 +46,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8ef850f710b356349b04fac7d6fd9219, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  walkSpeed: 7
+  walkSpeed: 3
   damage: 1
 --- !u!212 &3630541494047001196
 SpriteRenderer:

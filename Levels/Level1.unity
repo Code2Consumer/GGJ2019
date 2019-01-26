@@ -258,6 +258,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8dbb66ff3ccfb3845a8591b8c5bcdeb1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  attaqueTrigger: {fileID: 1963569083}
 --- !u!1 &323365462
 GameObject:
   m_ObjectHideFlags: 0
@@ -927,12 +928,12 @@ PrefabInstance:
     - target: {fileID: 2072492550524017451, guid: c46690cf8d7794e4587419605160c340,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 5.4314165
+      value: 7.4
       objectReference: {fileID: 0}
     - target: {fileID: 2072492550524017451, guid: c46690cf8d7794e4587419605160c340,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0.36064503
+      value: 0.09
       objectReference: {fileID: 0}
     - target: {fileID: 2072492550524017451, guid: c46690cf8d7794e4587419605160c340,
         type: 3}
@@ -1284,6 +1285,12 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 9
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!61 &1963569083 stripped
+BoxCollider2D:
+  m_CorrespondingSourceObject: {fileID: 7726298725749620634, guid: ba3978005a11eb645a2b3531e436b009,
+    type: 3}
+  m_PrefabInstance: {fileID: 6288676947101062753}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &978476038808912347
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1419,6 +1426,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1616565450557810804, guid: ba3978005a11eb645a2b3531e436b009,
+        type: 3}
+      propertyPath: m_TagString
+      value: Attaque
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ba3978005a11eb645a2b3531e436b009, type: 3}

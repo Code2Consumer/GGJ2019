@@ -19,7 +19,7 @@ public class Chevalier_Deplacement : MonoBehaviour
         else transform.Translate(Input.GetAxis("Horizontal") * Time.deltaTime * vitesse, 0, 0);
     }
 
-    void OnTriggerEnter2D(Collider2D other)
+    void OnTriggerStay2D(Collider2D other)
     {
         if (other.gameObject.tag == "Echelle")
         {

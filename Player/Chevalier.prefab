@@ -66,10 +66,10 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 6288676947187736209}
+  - component: {fileID: 6288676947187736210}
   - component: {fileID: 6288676947187736206}
   - component: {fileID: 6288676947187736211}
   - component: {fileID: 6288676947187736208}
-  - component: {fileID: 6288676947187736210}
   m_Layer: 0
   m_Name: Chevalier
   m_TagString: Player
@@ -92,6 +92,19 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &6288676947187736210
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6288676947187736207}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1fbc35e450e8754408c66fcd215fecaf, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  vitesse: 7
 --- !u!212 &6288676947187736206
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -187,16 +200,3 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 4
---- !u!114 &6288676947187736210
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6288676947187736207}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 1fbc35e450e8754408c66fcd215fecaf, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  vitesse: 10
