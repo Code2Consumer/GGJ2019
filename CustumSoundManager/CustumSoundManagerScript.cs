@@ -41,7 +41,11 @@ public class CustumSoundManagerScript : MonoBehaviour
 		AkSoundEngine.PostEvent( "Menu", gameObject);
     }
 
-    public void PlayerFootstep(){
+    public void playFootstep(){
 		AkSoundEngine.PostEvent( "Player_Footstep", gameObject);
+    }
+
+    public void playTeleportSound(){
+		AkSoundEngine.PostEvent( "Teleport", gameObject);
     }
 }

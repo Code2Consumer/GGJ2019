@@ -73,6 +73,7 @@ public class Chevalier_Deplacement : MonoBehaviour
 
     void teleportToSpawn(){
         scoreDejaUtilise = score;
+        GameObject.Find("CustumSoundManager").GetComponent<CustumSoundManagerScript>().playTeleportSound();
         gameObject.transform.position = spawnPosition;
         GameObject.Find("Canvas").GetComponent<HUDScript>().updateScore();
     }
