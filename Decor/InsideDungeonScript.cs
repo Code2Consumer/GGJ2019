@@ -9,6 +9,7 @@ public class InsideDungeonScript : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
+    	GameObject.Find("Canvas").GetComponent<HUDScript>().updateLifePoints(lifePoint);
         //Debug.Log(lifePoint);
     }
 
@@ -20,10 +21,9 @@ public class InsideDungeonScript : MonoBehaviour
 
     public void removeLifePoints(int points){
     	lifePoint = lifePoint - points;
-        // Debug.Log(lifePoint);
+    	GameObject.Find("Canvas").GetComponent<HUDScript>().updateLifePoints(lifePoint);
         if(lifePoint <= 0){
         	gameOver();
-        	Destroy(gameObject);
         }
     }
 
