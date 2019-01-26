@@ -34,6 +34,9 @@ public class EnemySpawnerScript : MonoBehaviour
     void spawnEnemy(){
         Vector3 spawnPosition = this.getRandomSpawnLine();
         int amountOfEnemyToSpawn = RandomNumber(1,4);
+        // int amountOfEnemyToSpawn = RandomNumber(1,4) + ( (int) Time.time/10 );
+        // Debug.Log(Time.time);
+
         // int distanceADistribuer = distanceEntreDifferentEnemyQuiSpawnEnMemeTemp * amountOfEnemyToSpawn - distanceEntreDifferentEnemyQuiSpawnEnMemeTemp;
         for (int i = 0; i < amountOfEnemyToSpawn; i++)
         {
