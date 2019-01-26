@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Deplacement : MonoBehaviour
+public class Chevalier_Deplacement : MonoBehaviour
 {
     public float vitesse = 10f;
     private bool echelleaporte = false;
@@ -33,7 +33,7 @@ public class Deplacement : MonoBehaviour
         if (other.gameObject.tag == "Echelle")
         {
             echelleaporte = false;
-            this.GetComponent<Rigidbody2D>().gravityScale = 10;
+            GetComponent<Rigidbody2D>().gravityScale = 10;
         }
     }
 }
