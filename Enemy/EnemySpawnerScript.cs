@@ -5,14 +5,14 @@ using UnityEngine;
 public class EnemySpawnerScript : MonoBehaviour
 {
 
-    public  GameObject  enemyObject;
     private Vector3[] linePositions = {
             new Vector3(6, 4, 0),
             new Vector3(6, 1, 0),
             new Vector3(6, -2, 0)
         };
+    public  GameObject  enemyObject;
     private float nextSpawnTime = 0.0f;
-    private float period = 1.1f;
+    private float period = 3f;
 
     // Start is called before the first frame update
     void Start()
@@ -25,7 +25,7 @@ public class EnemySpawnerScript : MonoBehaviour
     {
         if (Time.time > nextSpawnTime ) {
             nextSpawnTime = Time.time+period;
-            Debug.Log(period);
+            // Debug.Log(period);
             spawnEnemy();
         }
     }
@@ -37,7 +37,7 @@ public class EnemySpawnerScript : MonoBehaviour
     private Vector3 getRandomSpawnLine(){
         //int spawnValue = Random.Range(0, 3);
         int spawnValue = RandomNumber(0, 3);
-        Debug.Log(spawnValue);
+//        Debug.Log(spawnValue);
         return linePositions[spawnValue];
     }
 

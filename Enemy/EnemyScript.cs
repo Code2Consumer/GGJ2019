@@ -5,7 +5,8 @@ using UnityEngine;
 public class EnemyScript : MonoBehaviour
 {
 
-	public float walkSpeed;
+	public float walkSpeed = 5;
+    public int damage = 1;
 
     // Start is called before the first frame update
     void Start()
@@ -26,8 +27,8 @@ public class EnemyScript : MonoBehaviour
 
     void OnTriggerEnter2D(Collider2D other)
     {
-        if (other.gameObject.name == "insideDungeonTrigger" || other.gameObject.name == "insideDungeonTrigger(Clone)" ) {
-            //Debug.Log("Out of Map ");
+        if (other.gameObject.name == "insideDungeon" || other.gameObject.name == "insideDungeon(Clone)" ) {
+            other.gameObject.GetComponent<InsideDungeonScript>().removeLifePoints(damage);
             Destroy(gameObject);
         }
     }
