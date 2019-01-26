@@ -1,0 +1,91 @@
+Event	ID	Name			Wwise Object Path	Notes
+	733168346	Game_Start			\Default Work Unit\Game_Start	
+	1641587168	Attack_Miss			\Default Work Unit\Attack_Miss	
+	2030840469	Kill			\Default Work Unit\Kill	
+	2453392179	Player_Footstep			\Default Work Unit\Player_Footstep	
+
+Switch Group	ID	Name			Wwise Object Path	Notes
+	2385628198	Footsteps			\Default Work Unit\Footsteps	
+
+Switch	ID	Name	Switch Group			Notes
+	3514553268	Lane1	Footsteps			
+	3514553270	Lane3	Footsteps			
+	3514553271	Lane2	Footsteps			
+	4003899189	Echelle	Footsteps			
+
+State Group	ID	Name			Wwise Object Path	Notes
+	2981377429	Ambiance			\Default Work Unit\Ambiance	
+
+State	ID	Name	State Group			Notes
+	0	None	Ambiance			
+	3514553268	Lane1	Ambiance			
+	3514553270	Lane3	Ambiance			
+	3514553271	Lane2	Ambiance			
+
+Custom State	ID	Name	State Group	Owner		Notes
+	46913140	Lane3	Ambiance	\Actor-Mixer Hierarchy\Default Work Unit\Amb_Castle_		
+	98409985	Lane2	Ambiance	\Actor-Mixer Hierarchy\Default Work Unit\Crows		
+	108946193	Lane1	Ambiance	\Actor-Mixer Hierarchy\Default Work Unit\Amb_Underground_		
+	323806650	Lane3	Ambiance	\Actor-Mixer Hierarchy\Default Work Unit\Amb_Roof_		
+	383358030	Lane1	Ambiance	\Actor-Mixer Hierarchy\Default Work Unit\Amb_Castle_		
+	547890034	Lane2	Ambiance	\Actor-Mixer Hierarchy\Default Work Unit\Amb_Roof_		
+	761986462	Lane3	Ambiance	\Actor-Mixer Hierarchy\Default Work Unit\Crows		
+	1053015217	Lane2	Ambiance	\Actor-Mixer Hierarchy\Default Work Unit\Amb_Underground_		
+
+In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	6499499	MALE_GRUNT04	C:\Dropbox (GSI)\En Cours\GGJ2019\GGJ2019 Wwise Session\.cache\Windows\SFX\MALE_GRUNT04_85B99C8B.wem		\Actor-Mixer Hierarchy\Default Work Unit\Grunt\MALE_GRUNT04		36378
+	43869971	Amb_Underground_1	C:\Dropbox (GSI)\En Cours\GGJ2019\GGJ2019 Wwise Session\.cache\Windows\SFX\Amb_Underground_1_56D34C19.wem		\Actor-Mixer Hierarchy\Default Work Unit\Amb_Underground_\Amb_Underground_1		5267520
+	116216682	Amb_Roof_4	C:\Dropbox (GSI)\En Cours\GGJ2019\GGJ2019 Wwise Session\.cache\Windows\SFX\Amb_Roof_4_56D34C19.wem		\Actor-Mixer Hierarchy\Default Work Unit\Amb_Roof_\Amb_Roof_4		4735040
+	129876668	SWISH17	C:\Dropbox (GSI)\En Cours\GGJ2019\GGJ2019 Wwise Session\.cache\Windows\SFX\SWISH17_D17EFA76.wem		\Actor-Mixer Hierarchy\Default Work Unit\Swish\SWISH17		24666
+	143726297	SWISH04	C:\Dropbox (GSI)\En Cours\GGJ2019\GGJ2019 Wwise Session\.cache\Windows\SFX\SWISH04_633A9594.wem		\Actor-Mixer Hierarchy\Default Work Unit\Swish\SWISH04		32646
+	186529431	MALE_GRUNT02	C:\Dropbox (GSI)\En Cours\GGJ2019\GGJ2019 Wwise Session\.cache\Windows\SFX\MALE_GRUNT02_CC2231C5.wem		\Actor-Mixer Hierarchy\Default Work Unit\Grunt\MALE_GRUNT02		40788
+	208859658	FOOTSTEPS_BOOTS_BRIDGE_WOODEN_STEP07	C:\Dropbox (GSI)\En Cours\GGJ2019\GGJ2019 Wwise Session\.cache\Windows\SFX\Footsteps\Footsteps_Wood\FOOTSTEPS_BOOTS_BRIDGE_WOODEN_STEP07_273F8CD6.wem		\Actor-Mixer Hierarchy\Default Work Unit\Footsteps\Wood\FOOTSTEPS_BOOTS_BRIDGE_WOODEN_STEP07		33692
+	221613318	SWISH10	C:\Dropbox (GSI)\En Cours\GGJ2019\GGJ2019 Wwise Session\.cache\Windows\SFX\SWISH10_E27DC155.wem		\Actor-Mixer Hierarchy\Default Work Unit\Swish\SWISH10		22570
+	239847977	Amb_Roof_3	C:\Dropbox (GSI)\En Cours\GGJ2019\GGJ2019 Wwise Session\.cache\Windows\SFX\Amb_Roof_3_56D34C19.wem		\Actor-Mixer Hierarchy\Default Work Unit\Amb_Roof_\Amb_Roof_3		5161024
+	262410913	Crow_5	C:\Dropbox (GSI)\En Cours\GGJ2019\GGJ2019 Wwise Session\.cache\Windows\SFX\Crow_5_56D34C19.wem		\Actor-Mixer Hierarchy\Default Work Unit\Crows\Crow_5		509504
+	265067163	FOOTSTEPS_BOOTS_CERAMIC_PAVING_TILES_STEP06	C:\Dropbox (GSI)\En Cours\GGJ2019\GGJ2019 Wwise Session\.cache\Windows\SFX\Footsteps\Footsteps_Tiles\FOOTSTEPS_BOOTS_CERAMIC_PAVING_TILES_STEP06_0EAEDBF6.wem		\Actor-Mixer Hierarchy\Default Work Unit\Footsteps\Tiles\FOOTSTEPS_BOOTS_CERAMIC_PAVING_TILES_STEP06		22604
+	266131610	SWISH16	C:\Dropbox (GSI)\En Cours\GGJ2019\GGJ2019 Wwise Session\.cache\Windows\SFX\SWISH16_564A7AFC.wem		\Actor-Mixer Hierarchy\Default Work Unit\Swish\SWISH16		29476
+	274631934	FOOTSTEPS_BOOTS_ASPHELT_PUDDLES_STEP04	C:\Dropbox (GSI)\En Cours\GGJ2019\GGJ2019 Wwise Session\.cache\Windows\SFX\Footsteps\Footsteps_Water\FOOTSTEPS_BOOTS_ASPHELT_PUDDLES_STEP04_96F98A38.wem		\Actor-Mixer Hierarchy\Default Work Unit\Footsteps\Water\FOOTSTEPS_BOOTS_ASPHELT_PUDDLES_STEP04		34600
+	308014421	Amb_Underground_2	C:\Dropbox (GSI)\En Cours\GGJ2019\GGJ2019 Wwise Session\.cache\Windows\SFX\Amb_Underground_2_56D34C19.wem		\Actor-Mixer Hierarchy\Default Work Unit\Amb_Underground_\Amb_Underground_2		5259328
+	324038414	MALE_GRUNT01	C:\Dropbox (GSI)\En Cours\GGJ2019\GGJ2019 Wwise Session\.cache\Windows\SFX\MALE_GRUNT01_56D34C19.wem		\Actor-Mixer Hierarchy\Default Work Unit\Grunt\MALE_GRUNT01		44864
+	328041590	SWISH13	C:\Dropbox (GSI)\En Cours\GGJ2019\GGJ2019 Wwise Session\.cache\Windows\SFX\SWISH13_0405C93B.wem		\Actor-Mixer Hierarchy\Default Work Unit\Swish\SWISH13		23306
+	334952852	Amb_Roof_2	C:\Dropbox (GSI)\En Cours\GGJ2019\GGJ2019 Wwise Session\.cache\Windows\SFX\Amb_Roof_2_56D34C19.wem		\Actor-Mixer Hierarchy\Default Work Unit\Amb_Roof_\Amb_Roof_2		5292096
+	338936167	FOOTSTEPS_BOOTS_ASPHELT_PUDDLES_STEP01	C:\Dropbox (GSI)\En Cours\GGJ2019\GGJ2019 Wwise Session\.cache\Windows\SFX\Footsteps\Footsteps_Water\FOOTSTEPS_BOOTS_ASPHELT_PUDDLES_STEP01_B663DC90.wem		\Actor-Mixer Hierarchy\Default Work Unit\Footsteps\Water\FOOTSTEPS_BOOTS_ASPHELT_PUDDLES_STEP01		23832
+	368711312	FOOTSTEPS_BOOTS_ASPHELT_PUDDLES_STEP08	C:\Dropbox (GSI)\En Cours\GGJ2019\GGJ2019 Wwise Session\.cache\Windows\SFX\Footsteps\Footsteps_Water\FOOTSTEPS_BOOTS_ASPHELT_PUDDLES_STEP08_F752D286.wem		\Actor-Mixer Hierarchy\Default Work Unit\Footsteps\Water\FOOTSTEPS_BOOTS_ASPHELT_PUDDLES_STEP08		25558
+	371889190	Amb_Castle_4	C:\Dropbox (GSI)\En Cours\GGJ2019\GGJ2019 Wwise Session\.cache\Windows\SFX\Amb_Castle_4_56D34C19.wem		\Actor-Mixer Hierarchy\Default Work Unit\Amb_Castle_\Amb_Castle_4		2515008
+	374875309	Crow_2	C:\Dropbox (GSI)\En Cours\GGJ2019\GGJ2019 Wwise Session\.cache\Windows\SFX\Crow_2_56D34C19.wem		\Actor-Mixer Hierarchy\Default Work Unit\Crows\Crow_2		251968
+	378266478	SWISH12	C:\Dropbox (GSI)\En Cours\GGJ2019\GGJ2019 Wwise Session\.cache\Windows\SFX\SWISH12_A9464E2E.wem		\Actor-Mixer Hierarchy\Default Work Unit\Swish\SWISH12		31354
+	399099419	FOOTSTEPS_BOOTS_CERAMIC_PAVING_TILES_STEP02	C:\Dropbox (GSI)\En Cours\GGJ2019\GGJ2019 Wwise Session\.cache\Windows\SFX\Footsteps\Footsteps_Tiles\FOOTSTEPS_BOOTS_CERAMIC_PAVING_TILES_STEP02_10351902.wem		\Actor-Mixer Hierarchy\Default Work Unit\Footsteps\Tiles\FOOTSTEPS_BOOTS_CERAMIC_PAVING_TILES_STEP02		26768
+	400827840	FOOTSTEPS_BOOTS_CERAMIC_PAVING_TILES_STEP01	C:\Dropbox (GSI)\En Cours\GGJ2019\GGJ2019 Wwise Session\.cache\Windows\SFX\Footsteps\Footsteps_Tiles\FOOTSTEPS_BOOTS_CERAMIC_PAVING_TILES_STEP01_03202C08.wem		\Actor-Mixer Hierarchy\Default Work Unit\Footsteps\Tiles\FOOTSTEPS_BOOTS_CERAMIC_PAVING_TILES_STEP01		28662
+	440839654	FOOTSTEPS_BOOTS_BRIDGE_WOODEN_STEP08	C:\Dropbox (GSI)\En Cours\GGJ2019\GGJ2019 Wwise Session\.cache\Windows\SFX\Footsteps\Footsteps_Wood\FOOTSTEPS_BOOTS_BRIDGE_WOODEN_STEP08_C66D81E7.wem		\Actor-Mixer Hierarchy\Default Work Unit\Footsteps\Wood\FOOTSTEPS_BOOTS_BRIDGE_WOODEN_STEP08		38396
+	451755785	Amb_Castle_1	C:\Dropbox (GSI)\En Cours\GGJ2019\GGJ2019 Wwise Session\.cache\Windows\SFX\Amb_Castle_1_56D34C19.wem		\Actor-Mixer Hierarchy\Default Work Unit\Amb_Castle_\Amb_Castle_1		2420288
+	456003257	FOOTSTEPS_BOOTS_ASPHELT_PUDDLES_STEP06	C:\Dropbox (GSI)\En Cours\GGJ2019\GGJ2019 Wwise Session\.cache\Windows\SFX\Footsteps\Footsteps_Water\FOOTSTEPS_BOOTS_ASPHELT_PUDDLES_STEP06_3EA6A5F9.wem		\Actor-Mixer Hierarchy\Default Work Unit\Footsteps\Water\FOOTSTEPS_BOOTS_ASPHELT_PUDDLES_STEP06		31968
+	469079277	Corneille_1	C:\Dropbox (GSI)\En Cours\GGJ2019\GGJ2019 Wwise Session\.cache\Windows\SFX\Corneille_1_56D34C19.wem		\Actor-Mixer Hierarchy\Default Work Unit\Crows\Corneille_1		304704
+	497579794	Amb_Underground_4	C:\Dropbox (GSI)\En Cours\GGJ2019\GGJ2019 Wwise Session\.cache\Windows\SFX\Amb_Underground_4_56D34C19.wem		\Actor-Mixer Hierarchy\Default Work Unit\Amb_Underground_\Amb_Underground_4		5177408
+	514450782	Amb_Castle_2	C:\Dropbox (GSI)\En Cours\GGJ2019\GGJ2019 Wwise Session\.cache\Windows\SFX\Amb_Castle_2_56D34C19.wem		\Actor-Mixer Hierarchy\Default Work Unit\Amb_Castle_\Amb_Castle_2		2248768
+	520431073	FOOTSTEPS_BOOTS_CERAMIC_PAVING_TILES_STEP04	C:\Dropbox (GSI)\En Cours\GGJ2019\GGJ2019 Wwise Session\.cache\Windows\SFX\Footsteps\Footsteps_Tiles\FOOTSTEPS_BOOTS_CERAMIC_PAVING_TILES_STEP04_FB281BF2.wem		\Actor-Mixer Hierarchy\Default Work Unit\Footsteps\Tiles\FOOTSTEPS_BOOTS_CERAMIC_PAVING_TILES_STEP04		22612
+	529649719	SWISH06	C:\Dropbox (GSI)\En Cours\GGJ2019\GGJ2019 Wwise Session\.cache\Windows\SFX\SWISH06_FA0DC11B.wem		\Actor-Mixer Hierarchy\Default Work Unit\Swish\SWISH06		31678
+	542779789	SWISH02	C:\Dropbox (GSI)\En Cours\GGJ2019\GGJ2019 Wwise Session\.cache\Windows\SFX\SWISH02_43EE57B4.wem		\Actor-Mixer Hierarchy\Default Work Unit\Swish\SWISH02		26660
+	548026192	SWISH09	C:\Dropbox (GSI)\En Cours\GGJ2019\GGJ2019 Wwise Session\.cache\Windows\SFX\SWISH09_10B9D43B.wem		\Actor-Mixer Hierarchy\Default Work Unit\Swish\SWISH09		29562
+	576942538	Corneille	C:\Dropbox (GSI)\En Cours\GGJ2019\GGJ2019 Wwise Session\.cache\Windows\SFX\Corneille_56D34C19.wem		\Actor-Mixer Hierarchy\Default Work Unit\Crows\Corneille		505408
+	633724314	FOOTSTEPS_BOOTS_ASPHELT_PUDDLES_STEP03	C:\Dropbox (GSI)\En Cours\GGJ2019\GGJ2019 Wwise Session\.cache\Windows\SFX\Footsteps\Footsteps_Water\FOOTSTEPS_BOOTS_ASPHELT_PUDDLES_STEP03_56D34C19.wem		\Actor-Mixer Hierarchy\Default Work Unit\Footsteps\Water\FOOTSTEPS_BOOTS_ASPHELT_PUDDLES_STEP03		38138
+	646831060	FOOTSTEPS_BOOTS_BRIDGE_WOODEN_STEP05	C:\Dropbox (GSI)\En Cours\GGJ2019\GGJ2019 Wwise Session\.cache\Windows\SFX\Footsteps\Footsteps_Wood\FOOTSTEPS_BOOTS_BRIDGE_WOODEN_STEP05_BE416513.wem		\Actor-Mixer Hierarchy\Default Work Unit\Footsteps\Wood\FOOTSTEPS_BOOTS_BRIDGE_WOODEN_STEP05		34846
+	647058306	Amb_Roof_1	C:\Dropbox (GSI)\En Cours\GGJ2019\GGJ2019 Wwise Session\.cache\Windows\SFX\Amb_Roof_1_56D34C19.wem		\Actor-Mixer Hierarchy\Default Work Unit\Amb_Roof_\Amb_Roof_1		5259328
+	649614204	FOOTSTEPS_BOOTS_CERAMIC_PAVING_TILES_STEP03	C:\Dropbox (GSI)\En Cours\GGJ2019\GGJ2019 Wwise Session\.cache\Windows\SFX\Footsteps\Footsteps_Tiles\FOOTSTEPS_BOOTS_CERAMIC_PAVING_TILES_STEP03_F8E7C68C.wem		\Actor-Mixer Hierarchy\Default Work Unit\Footsteps\Tiles\FOOTSTEPS_BOOTS_CERAMIC_PAVING_TILES_STEP03		37116
+	661274447	FOOTSTEPS_BOOTS_ASPHELT_PUDDLES_STEP02	C:\Dropbox (GSI)\En Cours\GGJ2019\GGJ2019 Wwise Session\.cache\Windows\SFX\Footsteps\Footsteps_Water\FOOTSTEPS_BOOTS_ASPHELT_PUDDLES_STEP02_56D34C19.wem		\Actor-Mixer Hierarchy\Default Work Unit\Footsteps\Water\FOOTSTEPS_BOOTS_ASPHELT_PUDDLES_STEP02		30910
+	676569922	Amb_Castle_3	C:\Dropbox (GSI)\En Cours\GGJ2019\GGJ2019 Wwise Session\.cache\Windows\SFX\Amb_Castle_3_56D34C19.wem		\Actor-Mixer Hierarchy\Default Work Unit\Amb_Castle_\Amb_Castle_3		2940992
+	792503263	SWISH07	C:\Dropbox (GSI)\En Cours\GGJ2019\GGJ2019 Wwise Session\.cache\Windows\SFX\SWISH07_6CCFE3A7.wem		\Actor-Mixer Hierarchy\Default Work Unit\Swish\SWISH07		43288
+	840290471	FOOTSTEPS_BOOTS_BRIDGE_WOODEN_STEP03	C:\Dropbox (GSI)\En Cours\GGJ2019\GGJ2019 Wwise Session\.cache\Windows\SFX\Footsteps\Footsteps_Wood\FOOTSTEPS_BOOTS_BRIDGE_WOODEN_STEP03_FF33A1AE.wem		\Actor-Mixer Hierarchy\Default Work Unit\Footsteps\Wood\FOOTSTEPS_BOOTS_BRIDGE_WOODEN_STEP03		29658
+	895345261	MALE_GRUNT03	C:\Dropbox (GSI)\En Cours\GGJ2019\GGJ2019 Wwise Session\.cache\Windows\SFX\MALE_GRUNT03_56D34C19.wem		\Actor-Mixer Hierarchy\Default Work Unit\Grunt\MALE_GRUNT03		52834
+	907820719	Crow_3	C:\Dropbox (GSI)\En Cours\GGJ2019\GGJ2019 Wwise Session\.cache\Windows\SFX\Crow_3_56D34C19.wem		\Actor-Mixer Hierarchy\Default Work Unit\Crows\Crow_3		354368
+	933823510	SWISH08	C:\Dropbox (GSI)\En Cours\GGJ2019\GGJ2019 Wwise Session\.cache\Windows\SFX\SWISH08_BA24A66A.wem		\Actor-Mixer Hierarchy\Default Work Unit\Swish\SWISH08		32074
+	1007858419	SWISH01	C:\Dropbox (GSI)\En Cours\GGJ2019\GGJ2019 Wwise Session\.cache\Windows\SFX\SWISH01_D12EAE0A.wem		\Actor-Mixer Hierarchy\Default Work Unit\Swish\SWISH01		15990
+	1013615914	Amb_Underground_3	C:\Dropbox (GSI)\En Cours\GGJ2019\GGJ2019 Wwise Session\.cache\Windows\SFX\Amb_Underground_3_56D34C19.wem		\Actor-Mixer Hierarchy\Default Work Unit\Amb_Underground_\Amb_Underground_3		5242944
+	1017853571	FOOTSTEPS_BOOTS_ASPHELT_PUDDLES_STEP05	C:\Dropbox (GSI)\En Cours\GGJ2019\GGJ2019 Wwise Session\.cache\Windows\SFX\Footsteps\Footsteps_Water\FOOTSTEPS_BOOTS_ASPHELT_PUDDLES_STEP05_546FF839.wem		\Actor-Mixer Hierarchy\Default Work Unit\Footsteps\Water\FOOTSTEPS_BOOTS_ASPHELT_PUDDLES_STEP05		30118
+	1027104295	FOOTSTEPS_BOOTS_CERAMIC_PAVING_TILES_STEP08	C:\Dropbox (GSI)\En Cours\GGJ2019\GGJ2019 Wwise Session\.cache\Windows\SFX\Footsteps\Footsteps_Tiles\FOOTSTEPS_BOOTS_CERAMIC_PAVING_TILES_STEP08_2A067995.wem		\Actor-Mixer Hierarchy\Default Work Unit\Footsteps\Tiles\FOOTSTEPS_BOOTS_CERAMIC_PAVING_TILES_STEP08		24340
+	1036319322	FOOTSTEPS_BOOTS_BRIDGE_WOODEN_STEP06	C:\Dropbox (GSI)\En Cours\GGJ2019\GGJ2019 Wwise Session\.cache\Windows\SFX\Footsteps\Footsteps_Wood\FOOTSTEPS_BOOTS_BRIDGE_WOODEN_STEP06_51C35197.wem		\Actor-Mixer Hierarchy\Default Work Unit\Footsteps\Wood\FOOTSTEPS_BOOTS_BRIDGE_WOODEN_STEP06		27990
+	1055199599	FOOTSTEPS_BOOTS_BRIDGE_WOODEN_STEP02	C:\Dropbox (GSI)\En Cours\GGJ2019\GGJ2019 Wwise Session\.cache\Windows\SFX\Footsteps\Footsteps_Wood\FOOTSTEPS_BOOTS_BRIDGE_WOODEN_STEP02_84791E04.wem		\Actor-Mixer Hierarchy\Default Work Unit\Footsteps\Wood\FOOTSTEPS_BOOTS_BRIDGE_WOODEN_STEP02		34168
+	1056040817	FOOTSTEPS_BOOTS_BRIDGE_WOODEN_STEP04	C:\Dropbox (GSI)\En Cours\GGJ2019\GGJ2019 Wwise Session\.cache\Windows\SFX\Footsteps\Footsteps_Wood\FOOTSTEPS_BOOTS_BRIDGE_WOODEN_STEP04_617D7291.wem		\Actor-Mixer Hierarchy\Default Work Unit\Footsteps\Wood\FOOTSTEPS_BOOTS_BRIDGE_WOODEN_STEP04		31516
+	1056058293	FOOTSTEPS_BOOTS_BRIDGE_WOODEN_STEP01	C:\Dropbox (GSI)\En Cours\GGJ2019\GGJ2019 Wwise Session\.cache\Windows\SFX\Footsteps\Footsteps_Wood\FOOTSTEPS_BOOTS_BRIDGE_WOODEN_STEP01_A9D46420.wem		\Actor-Mixer Hierarchy\Default Work Unit\Footsteps\Wood\FOOTSTEPS_BOOTS_BRIDGE_WOODEN_STEP01		39728
+	1068518963	FOOTSTEPS_BOOTS_ASPHELT_PUDDLES_STEP07	C:\Dropbox (GSI)\En Cours\GGJ2019\GGJ2019 Wwise Session\.cache\Windows\SFX\Footsteps\Footsteps_Water\FOOTSTEPS_BOOTS_ASPHELT_PUDDLES_STEP07_49124113.wem		\Actor-Mixer Hierarchy\Default Work Unit\Footsteps\Water\FOOTSTEPS_BOOTS_ASPHELT_PUDDLES_STEP07		27032
+

@@ -1,0 +1,253 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="11" SoundbankVersion="132">
+	<RootPaths>
+		<ProjectRoot>C:\Dropbox (GSI)\En Cours\GGJ2019\GGJ2019 Wwise Session\</ProjectRoot>
+		<SourceFilesRoot>C:\Dropbox (GSI)\En Cours\GGJ2019\GGJ2019 Wwise Session\.cache\Windows\</SourceFilesRoot>
+		<SoundBanksRoot>C:\Dropbox (GSI)\En Cours\GGJ2019\Wwise Soundbank Export\</SoundBanksRoot>
+		<ExternalSourcesInputFile></ExternalSourcesInputFile>
+		<ExternalSourcesOutputRoot>C:\Dropbox (GSI)\En Cours\GGJ2019\GGJ2019 Wwise Session\GeneratedSoundBanks\Windows</ExternalSourcesOutputRoot>
+	</RootPaths>
+	<DialogueEvents/>
+	<StreamedFiles/>
+	<MediaFilesNotInAnyBank/>
+	<SoundBanks>
+		<SoundBank Id="1355168291" Language="SFX">
+			<ObjectPath>Init</ObjectPath>
+			<ShortName>Init</ShortName>
+			<Path>Init.bnk</Path>
+		</SoundBank>
+		<SoundBank Id="3161908922" Language="SFX">
+			<ObjectPath>\SoundBanks\Default Work Unit\Main</ObjectPath>
+			<ShortName>Main</ShortName>
+			<Path>Main.bnk</Path>
+			<IncludedEvents>
+				<Event Id="1641587168" Name="Attack_Miss" ObjectPath="\Events\Default Work Unit\Attack_Miss"/>
+				<Event Id="733168346" Name="Game_Start" ObjectPath="\Events\Default Work Unit\Game_Start"/>
+				<Event Id="2030840469" Name="Kill" ObjectPath="\Events\Default Work Unit\Kill"/>
+				<Event Id="2453392179" Name="Player_Footstep" ObjectPath="\Events\Default Work Unit\Player_Footstep"/>
+			</IncludedEvents>
+			<IncludedMemoryFiles>
+				<File Id="6499499" Language="SFX">
+					<ShortName>MALE_GRUNT04.WAV</ShortName>
+					<Path>SFX\MALE_GRUNT04_85B99C8B.wem</Path>
+				</File>
+				<File Id="43869971" Language="SFX">
+					<ShortName>Amb_Underground_1.wav</ShortName>
+					<Path>SFX\Amb_Underground_1_56D34C19.wem</Path>
+				</File>
+				<File Id="116216682" Language="SFX">
+					<ShortName>Amb_Roof_4.wav</ShortName>
+					<Path>SFX\Amb_Roof_4_56D34C19.wem</Path>
+				</File>
+				<File Id="129876668" Language="SFX">
+					<ShortName>SWISH17.WAV</ShortName>
+					<Path>SFX\SWISH17_D17EFA76.wem</Path>
+				</File>
+				<File Id="143726297" Language="SFX">
+					<ShortName>SWISH04.WAV</ShortName>
+					<Path>SFX\SWISH04_633A9594.wem</Path>
+				</File>
+				<File Id="186529431" Language="SFX">
+					<ShortName>MALE_GRUNT02.WAV</ShortName>
+					<Path>SFX\MALE_GRUNT02_CC2231C5.wem</Path>
+				</File>
+				<File Id="208859658" Language="SFX">
+					<ShortName>Footsteps\Footsteps_Wood\FOOTSTEPS_BOOTS_BRIDGE_WOODEN_STEP07.WAV</ShortName>
+					<Path>SFX\Footsteps\Footsteps_Wood\FOOTSTEPS_BOOTS_BRIDGE_WOODEN_STEP07_273F8CD6.wem</Path>
+				</File>
+				<File Id="221613318" Language="SFX">
+					<ShortName>SWISH10.WAV</ShortName>
+					<Path>SFX\SWISH10_E27DC155.wem</Path>
+				</File>
+				<File Id="239847977" Language="SFX">
+					<ShortName>Amb_Roof_3.wav</ShortName>
+					<Path>SFX\Amb_Roof_3_56D34C19.wem</Path>
+				</File>
+				<File Id="262410913" Language="SFX">
+					<ShortName>Crow_5.wav</ShortName>
+					<Path>SFX\Crow_5_56D34C19.wem</Path>
+				</File>
+				<File Id="265067163" Language="SFX">
+					<ShortName>Footsteps\Footsteps_Tiles\FOOTSTEPS_BOOTS_CERAMIC_PAVING_TILES_STEP06.WAV</ShortName>
+					<Path>SFX\Footsteps\Footsteps_Tiles\FOOTSTEPS_BOOTS_CERAMIC_PAVING_TILES_STEP06_0EAEDBF6.wem</Path>
+				</File>
+				<File Id="266131610" Language="SFX">
+					<ShortName>SWISH16.WAV</ShortName>
+					<Path>SFX\SWISH16_564A7AFC.wem</Path>
+				</File>
+				<File Id="274631934" Language="SFX">
+					<ShortName>Footsteps\Footsteps_Water\FOOTSTEPS_BOOTS_ASPHELT_PUDDLES_STEP04.WAV</ShortName>
+					<Path>SFX\Footsteps\Footsteps_Water\FOOTSTEPS_BOOTS_ASPHELT_PUDDLES_STEP04_96F98A38.wem</Path>
+				</File>
+				<File Id="308014421" Language="SFX">
+					<ShortName>Amb_Underground_2.wav</ShortName>
+					<Path>SFX\Amb_Underground_2_56D34C19.wem</Path>
+				</File>
+				<File Id="324038414" Language="SFX">
+					<ShortName>MALE_GRUNT01.WAV</ShortName>
+					<Path>SFX\MALE_GRUNT01_56D34C19.wem</Path>
+				</File>
+				<File Id="328041590" Language="SFX">
+					<ShortName>SWISH13.WAV</ShortName>
+					<Path>SFX\SWISH13_0405C93B.wem</Path>
+				</File>
+				<File Id="334952852" Language="SFX">
+					<ShortName>Amb_Roof_2.wav</ShortName>
+					<Path>SFX\Amb_Roof_2_56D34C19.wem</Path>
+				</File>
+				<File Id="338936167" Language="SFX">
+					<ShortName>Footsteps\Footsteps_Water\FOOTSTEPS_BOOTS_ASPHELT_PUDDLES_STEP01.WAV</ShortName>
+					<Path>SFX\Footsteps\Footsteps_Water\FOOTSTEPS_BOOTS_ASPHELT_PUDDLES_STEP01_B663DC90.wem</Path>
+				</File>
+				<File Id="368711312" Language="SFX">
+					<ShortName>Footsteps\Footsteps_Water\FOOTSTEPS_BOOTS_ASPHELT_PUDDLES_STEP08.WAV</ShortName>
+					<Path>SFX\Footsteps\Footsteps_Water\FOOTSTEPS_BOOTS_ASPHELT_PUDDLES_STEP08_F752D286.wem</Path>
+				</File>
+				<File Id="371889190" Language="SFX">
+					<ShortName>Amb_Castle_4.wav</ShortName>
+					<Path>SFX\Amb_Castle_4_56D34C19.wem</Path>
+				</File>
+				<File Id="374875309" Language="SFX">
+					<ShortName>Crow_2.wav</ShortName>
+					<Path>SFX\Crow_2_56D34C19.wem</Path>
+				</File>
+				<File Id="378266478" Language="SFX">
+					<ShortName>SWISH12.WAV</ShortName>
+					<Path>SFX\SWISH12_A9464E2E.wem</Path>
+				</File>
+				<File Id="399099419" Language="SFX">
+					<ShortName>Footsteps\Footsteps_Tiles\FOOTSTEPS_BOOTS_CERAMIC_PAVING_TILES_STEP02.WAV</ShortName>
+					<Path>SFX\Footsteps\Footsteps_Tiles\FOOTSTEPS_BOOTS_CERAMIC_PAVING_TILES_STEP02_10351902.wem</Path>
+				</File>
+				<File Id="400827840" Language="SFX">
+					<ShortName>Footsteps\Footsteps_Tiles\FOOTSTEPS_BOOTS_CERAMIC_PAVING_TILES_STEP01.WAV</ShortName>
+					<Path>SFX\Footsteps\Footsteps_Tiles\FOOTSTEPS_BOOTS_CERAMIC_PAVING_TILES_STEP01_03202C08.wem</Path>
+				</File>
+				<File Id="440839654" Language="SFX">
+					<ShortName>Footsteps\Footsteps_Wood\FOOTSTEPS_BOOTS_BRIDGE_WOODEN_STEP08.WAV</ShortName>
+					<Path>SFX\Footsteps\Footsteps_Wood\FOOTSTEPS_BOOTS_BRIDGE_WOODEN_STEP08_C66D81E7.wem</Path>
+				</File>
+				<File Id="451755785" Language="SFX">
+					<ShortName>Amb_Castle_1.wav</ShortName>
+					<Path>SFX\Amb_Castle_1_56D34C19.wem</Path>
+				</File>
+				<File Id="456003257" Language="SFX">
+					<ShortName>Footsteps\Footsteps_Water\FOOTSTEPS_BOOTS_ASPHELT_PUDDLES_STEP06.WAV</ShortName>
+					<Path>SFX\Footsteps\Footsteps_Water\FOOTSTEPS_BOOTS_ASPHELT_PUDDLES_STEP06_3EA6A5F9.wem</Path>
+				</File>
+				<File Id="469079277" Language="SFX">
+					<ShortName>Corneille_1.wav</ShortName>
+					<Path>SFX\Corneille_1_56D34C19.wem</Path>
+				</File>
+				<File Id="497579794" Language="SFX">
+					<ShortName>Amb_Underground_4.wav</ShortName>
+					<Path>SFX\Amb_Underground_4_56D34C19.wem</Path>
+				</File>
+				<File Id="514450782" Language="SFX">
+					<ShortName>Amb_Castle_2.wav</ShortName>
+					<Path>SFX\Amb_Castle_2_56D34C19.wem</Path>
+				</File>
+				<File Id="520431073" Language="SFX">
+					<ShortName>Footsteps\Footsteps_Tiles\FOOTSTEPS_BOOTS_CERAMIC_PAVING_TILES_STEP04.WAV</ShortName>
+					<Path>SFX\Footsteps\Footsteps_Tiles\FOOTSTEPS_BOOTS_CERAMIC_PAVING_TILES_STEP04_FB281BF2.wem</Path>
+				</File>
+				<File Id="529649719" Language="SFX">
+					<ShortName>SWISH06.WAV</ShortName>
+					<Path>SFX\SWISH06_FA0DC11B.wem</Path>
+				</File>
+				<File Id="542779789" Language="SFX">
+					<ShortName>SWISH02.WAV</ShortName>
+					<Path>SFX\SWISH02_43EE57B4.wem</Path>
+				</File>
+				<File Id="548026192" Language="SFX">
+					<ShortName>SWISH09.WAV</ShortName>
+					<Path>SFX\SWISH09_10B9D43B.wem</Path>
+				</File>
+				<File Id="576942538" Language="SFX">
+					<ShortName>Corneille.wav</ShortName>
+					<Path>SFX\Corneille_56D34C19.wem</Path>
+				</File>
+				<File Id="633724314" Language="SFX">
+					<ShortName>Footsteps\Footsteps_Water\FOOTSTEPS_BOOTS_ASPHELT_PUDDLES_STEP03.WAV</ShortName>
+					<Path>SFX\Footsteps\Footsteps_Water\FOOTSTEPS_BOOTS_ASPHELT_PUDDLES_STEP03_56D34C19.wem</Path>
+				</File>
+				<File Id="646831060" Language="SFX">
+					<ShortName>Footsteps\Footsteps_Wood\FOOTSTEPS_BOOTS_BRIDGE_WOODEN_STEP05.WAV</ShortName>
+					<Path>SFX\Footsteps\Footsteps_Wood\FOOTSTEPS_BOOTS_BRIDGE_WOODEN_STEP05_BE416513.wem</Path>
+				</File>
+				<File Id="647058306" Language="SFX">
+					<ShortName>Amb_Roof_1.wav</ShortName>
+					<Path>SFX\Amb_Roof_1_56D34C19.wem</Path>
+				</File>
+				<File Id="649614204" Language="SFX">
+					<ShortName>Footsteps\Footsteps_Tiles\FOOTSTEPS_BOOTS_CERAMIC_PAVING_TILES_STEP03.WAV</ShortName>
+					<Path>SFX\Footsteps\Footsteps_Tiles\FOOTSTEPS_BOOTS_CERAMIC_PAVING_TILES_STEP03_F8E7C68C.wem</Path>
+				</File>
+				<File Id="661274447" Language="SFX">
+					<ShortName>Footsteps\Footsteps_Water\FOOTSTEPS_BOOTS_ASPHELT_PUDDLES_STEP02.WAV</ShortName>
+					<Path>SFX\Footsteps\Footsteps_Water\FOOTSTEPS_BOOTS_ASPHELT_PUDDLES_STEP02_56D34C19.wem</Path>
+				</File>
+				<File Id="676569922" Language="SFX">
+					<ShortName>Amb_Castle_3.wav</ShortName>
+					<Path>SFX\Amb_Castle_3_56D34C19.wem</Path>
+				</File>
+				<File Id="792503263" Language="SFX">
+					<ShortName>SWISH07.WAV</ShortName>
+					<Path>SFX\SWISH07_6CCFE3A7.wem</Path>
+				</File>
+				<File Id="840290471" Language="SFX">
+					<ShortName>Footsteps\Footsteps_Wood\FOOTSTEPS_BOOTS_BRIDGE_WOODEN_STEP03.WAV</ShortName>
+					<Path>SFX\Footsteps\Footsteps_Wood\FOOTSTEPS_BOOTS_BRIDGE_WOODEN_STEP03_FF33A1AE.wem</Path>
+				</File>
+				<File Id="895345261" Language="SFX">
+					<ShortName>MALE_GRUNT03.WAV</ShortName>
+					<Path>SFX\MALE_GRUNT03_56D34C19.wem</Path>
+				</File>
+				<File Id="907820719" Language="SFX">
+					<ShortName>Crow_3.wav</ShortName>
+					<Path>SFX\Crow_3_56D34C19.wem</Path>
+				</File>
+				<File Id="933823510" Language="SFX">
+					<ShortName>SWISH08.WAV</ShortName>
+					<Path>SFX\SWISH08_BA24A66A.wem</Path>
+				</File>
+				<File Id="1007858419" Language="SFX">
+					<ShortName>SWISH01.WAV</ShortName>
+					<Path>SFX\SWISH01_D12EAE0A.wem</Path>
+				</File>
+				<File Id="1013615914" Language="SFX">
+					<ShortName>Amb_Underground_3.wav</ShortName>
+					<Path>SFX\Amb_Underground_3_56D34C19.wem</Path>
+				</File>
+				<File Id="1017853571" Language="SFX">
+					<ShortName>Footsteps\Footsteps_Water\FOOTSTEPS_BOOTS_ASPHELT_PUDDLES_STEP05.WAV</ShortName>
+					<Path>SFX\Footsteps\Footsteps_Water\FOOTSTEPS_BOOTS_ASPHELT_PUDDLES_STEP05_546FF839.wem</Path>
+				</File>
+				<File Id="1027104295" Language="SFX">
+					<ShortName>Footsteps\Footsteps_Tiles\FOOTSTEPS_BOOTS_CERAMIC_PAVING_TILES_STEP08.WAV</ShortName>
+					<Path>SFX\Footsteps\Footsteps_Tiles\FOOTSTEPS_BOOTS_CERAMIC_PAVING_TILES_STEP08_2A067995.wem</Path>
+				</File>
+				<File Id="1036319322" Language="SFX">
+					<ShortName>Footsteps\Footsteps_Wood\FOOTSTEPS_BOOTS_BRIDGE_WOODEN_STEP06.WAV</ShortName>
+					<Path>SFX\Footsteps\Footsteps_Wood\FOOTSTEPS_BOOTS_BRIDGE_WOODEN_STEP06_51C35197.wem</Path>
+				</File>
+				<File Id="1055199599" Language="SFX">
+					<ShortName>Footsteps\Footsteps_Wood\FOOTSTEPS_BOOTS_BRIDGE_WOODEN_STEP02.WAV</ShortName>
+					<Path>SFX\Footsteps\Footsteps_Wood\FOOTSTEPS_BOOTS_BRIDGE_WOODEN_STEP02_84791E04.wem</Path>
+				</File>
+				<File Id="1056040817" Language="SFX">
+					<ShortName>Footsteps\Footsteps_Wood\FOOTSTEPS_BOOTS_BRIDGE_WOODEN_STEP04.WAV</ShortName>
+					<Path>SFX\Footsteps\Footsteps_Wood\FOOTSTEPS_BOOTS_BRIDGE_WOODEN_STEP04_617D7291.wem</Path>
+				</File>
+				<File Id="1056058293" Language="SFX">
+					<ShortName>Footsteps\Footsteps_Wood\FOOTSTEPS_BOOTS_BRIDGE_WOODEN_STEP01.WAV</ShortName>
+					<Path>SFX\Footsteps\Footsteps_Wood\FOOTSTEPS_BOOTS_BRIDGE_WOODEN_STEP01_A9D46420.wem</Path>
+				</File>
+				<File Id="1068518963" Language="SFX">
+					<ShortName>Footsteps\Footsteps_Water\FOOTSTEPS_BOOTS_ASPHELT_PUDDLES_STEP07.WAV</ShortName>
+					<Path>SFX\Footsteps\Footsteps_Water\FOOTSTEPS_BOOTS_ASPHELT_PUDDLES_STEP07_49124113.wem</Path>
+				</File>
+			</IncludedMemoryFiles>
+		</SoundBank>
+	</SoundBanks>
+</SoundBanksInfo>
