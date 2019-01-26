@@ -6,19 +6,22 @@ public class EnemySpawnerScript : MonoBehaviour
 {
 
     private Vector3[] linePositions = {
-            new Vector3(6, 4, 0),
-            new Vector3(6, 1, 0),
-            new Vector3(6, -2, 0)
+            new Vector3(24, 9, 0),
+            new Vector3(24, 2, 0),
+            new Vector3(24, -4, 0)
         };
     public  GameObject  enemyObject;
     private float nextSpawnTime = 0.0f;
     private float period = 3f;
     private float distanceEntreDifferentEnemyQuiSpawnEnMemeTemp = 1;
+    private float timeSinceNewSession = 0;
+
     private System.Random random = new System.Random();
+    
     // Start is called before the first frame update
     void Start()
     {
-
+        timeSinceNewSession = Time.time;
     }
 
     // Update is called once per frame
@@ -32,7 +35,7 @@ public class EnemySpawnerScript : MonoBehaviour
     }
 
     void spawnEnemy(){
-        int amountOfEnemyToSpawn    = random.Next(1,4)+ ( (int) Time.time/10 );
+        int amountOfEnemyToSpawn    = random.Next(1,4)+ ( (int) (Time.time-timeSinceNewSession) /10 );
         int randomSpawnPicker       = random.Next(0,3);
         Vector3 spawnPosition       = linePositions[randomSpawnPicker];
         
