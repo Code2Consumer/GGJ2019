@@ -4,8 +4,17 @@ using UnityEngine;
 
 public class Chevalier_Deplacement : MonoBehaviour
 {
-    public float vitesse = 10f;
-    private bool echelleaporte = false;
+    public float vitesse                        = 10f;
+    public float scorePerEnemyKilled            = 100;
+    public float enemyNecessairePourFullRage    = 2;
+    
+    public float score                          = 0;
+    public float scoreDejaUtilise               = 0;
+    
+    private bool echelleaporte                  = false;
+    private bool canUseAbility                  = false;
+    private Vector3 spawnPosition               = new Vector3(-13, 1.5f, 0);
+
     // Start is called before the first frame update
     void Start()
     {
@@ -27,7 +36,17 @@ public class Chevalier_Deplacement : MonoBehaviour
         }else{
             transform.Translate(x, 0, 0);
         }
-        // GetComponent<Rigidbody2D>().isKinematic = echelleaporte;
+
+
+        if((score-scoreDejaUtilise)/scorePerEnemyKilled >= enemyNecessairePourFullRage){
+            canUseAbility = true ;
+        }else{
+            canUseAbility = false;
+        }
+
+        if(canUseAbility && Input.GetKeyDown("space")){
+            teleportToSpawn();
+        }
     }
 
     void OnTriggerStay2D(Collider2D other)
@@ -46,5 +65,15 @@ public class Chevalier_Deplacement : MonoBehaviour
             echelleaporte = false;
             GetComponent<Rigidbody2D>().gravityScale = 10;
         }
+    }
+
+    public void addPointsToScore(){
+        score = score + scorePerEnemyKilled;
+    }
+
+    void teleportToSpawn(){
+        scoreDejaUtilise = score;
+        gameObject.transform.position = spawnPosition;
+        GameObject.Find("Canvas").GetComponent<HUDScript>().updateScore();
     }
 }

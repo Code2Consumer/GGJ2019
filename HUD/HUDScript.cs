@@ -42,11 +42,16 @@ public class HUDScript : MonoBehaviour
 
     public void addPointsToScore(int points){
     	scoreTotal = scoreTotal + points;
-    	updateScore(scoreTotal);
+    	updateScore();
     }
 
-    public void updateScore(int score){
+    public void updateScore(){
+    	float score = GameObject.Find("Chevalier").GetComponent<Chevalier_Deplacement>().score;
+    	float scoreDejaUtilisee = GameObject.Find("Chevalier").GetComponent<Chevalier_Deplacement>().scoreDejaUtilise;
     	ScoreText.GetComponent<UnityEngine.UI.Text>().text = "Score:"+score;
+    	float scorePercenage = ( (score-scoreDejaUtilisee) / GameObject.Find("Chevalier").GetComponent<Chevalier_Deplacement>().scorePerEnemyKilled ) / 
+    	GameObject.Find("Chevalier").GetComponent<Chevalier_Deplacement>().enemyNecessairePourFullRage;
+    	updateRageBar(scorePercenage);
     }
 
     public void gameOver(){
