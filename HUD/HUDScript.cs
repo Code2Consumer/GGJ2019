@@ -49,8 +49,9 @@ public class HUDScript : MonoBehaviour
     	ScoreText.GetComponent<UnityEngine.UI.Text>().text = "Score:"+score;
     }
 
-
     public void gameOver(){
+        GameObject.Find("CustumSoundManager").GetComponent<CustumSoundManagerScript>().playGameOver();
+
     	GameOverText.GetComponent<UnityEngine.UI.Text>().enabled = true;
     	RetryTextButton.GetComponent<UnityEngine.UI.Text>().enabled = true;
     }

@@ -30,10 +30,11 @@ public class Chevalier_Attaque : MonoBehaviour
     {
         if (Input.GetAxis("Fire1") != 0 && !attaque){
             attaque = true;
-            anim.SetTrigger("Attaque");
+            // anim.SetTrigger("Attaque");
             attaqueTimer = attaqueCooldown;
 
             attaqueTrigger.enabled = true;
+            playHitSound();
         }
 
         if (attaque)
@@ -50,5 +51,8 @@ public class Chevalier_Attaque : MonoBehaviour
         }
         
         
+    }
+    void playHitSound(){
+        GameObject.Find("CustumSoundManager").GetComponent<CustumSoundManagerScript>().playAttack();
     }
 }

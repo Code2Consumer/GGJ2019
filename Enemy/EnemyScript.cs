@@ -37,6 +37,7 @@ public class EnemyScript : MonoBehaviour
     }
 
     void die(){
+        GameObject.Find("CustumSoundManager").GetComponent<CustumSoundManagerScript>().playKill();
         Destroy(gameObject);
     }
 }
