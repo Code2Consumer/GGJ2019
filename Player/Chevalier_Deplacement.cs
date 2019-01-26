@@ -9,16 +9,23 @@ public class Chevalier_Deplacement : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-
+       
     }
 
     // Update is called once per frame
     void Update()
     {
+
+        var x = Input.GetAxis("Horizontal") * Time.deltaTime * vitesse *-1;
+        var y = Input.GetAxis("Vertical") * Time.deltaTime * vitesse *-1;
+
+        if (Input.GetAxis("Horizontal") < 0) { transform.eulerAngles = new Vector3(0, 180, 0); x = -x; }
+        else transform.eulerAngles = new Vector3(0, 0, 0); x = -x ;
+
         if (echelleaporte) {
-            transform.Translate(Input.GetAxis("Horizontal")*Time.deltaTime*vitesse , Input.GetAxis("Vertical") * Time.deltaTime * vitesse, 0);
+            transform.Translate( x, y, 0);
         }else{
-            transform.Translate(Input.GetAxis("Horizontal") * Time.deltaTime * vitesse, 0, 0);
+            transform.Translate(x, 0, 0);
         }
         // GetComponent<Rigidbody2D>().isKinematic = echelleaporte;
     }

@@ -12,11 +12,11 @@ public class Chevalier_Attaque : MonoBehaviour
 
     public Collider2D attaqueTrigger;
 
-    //Sprivate Animator anim;
+    private Animator anim;
 
     void Awake()
     {
-        //anim = gameObject.GetComponent<Animator>();
+        anim = gameObject.GetComponent<Animator>();
         attaqueTrigger.enabled = false;
     }
     // Start is called before the first frame update
@@ -30,6 +30,7 @@ public class Chevalier_Attaque : MonoBehaviour
     {
         if (Input.GetAxis("Fire1") != 0 && !attaque){
             attaque = true;
+            anim.SetTrigger("Attaque");
             attaqueTimer = attaqueCooldown;
 
             attaqueTrigger.enabled = true;
@@ -47,7 +48,7 @@ public class Chevalier_Attaque : MonoBehaviour
                 attaqueTrigger.enabled = false;
             }
         }
-
-        //anim.SetBool("Attaque", attaque);
+        
+        
     }
 }
