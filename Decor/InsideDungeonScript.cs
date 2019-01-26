@@ -20,9 +20,11 @@ public class InsideDungeonScript : MonoBehaviour
     }
 
     public void removeLifePoints(int points){
-    	GameObject.Find("CustumSoundManager").GetComponent<CustumSoundManagerScript>().playHealthLoss();
-    	lifePoint = lifePoint - points;
-    	GameObject.Find("Canvas").GetComponent<HUDScript>().updateLifePoints(lifePoint);
+    	if(lifePoint > 0){
+	    	lifePoint = lifePoint - points;
+	    	GameObject.Find("Canvas").GetComponent<HUDScript>().updateLifePoints(lifePoint);
+  	  		GameObject.Find("CustumSoundManager").GetComponent<CustumSoundManagerScript>().playHealthLoss();
+    	}
         if(lifePoint <= 0){
         	gameOver();
         }
