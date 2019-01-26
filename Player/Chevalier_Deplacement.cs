@@ -15,8 +15,12 @@ public class Chevalier_Deplacement : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (echelleaporte) transform.Translate(Input.GetAxis("Horizontal")*Time.deltaTime*vitesse , Input.GetAxis("Vertical") * Time.deltaTime * vitesse, 0);
-        else transform.Translate(Input.GetAxis("Horizontal") * Time.deltaTime * vitesse, 0, 0);
+        if (echelleaporte) {
+            transform.Translate(Input.GetAxis("Horizontal")*Time.deltaTime*vitesse , Input.GetAxis("Vertical") * Time.deltaTime * vitesse, 0);
+        }else{
+            transform.Translate(Input.GetAxis("Horizontal") * Time.deltaTime * vitesse, 0, 0);
+        }
+        // GetComponent<Rigidbody2D>().isKinematic = echelleaporte;
     }
 
     void OnTriggerStay2D(Collider2D other)

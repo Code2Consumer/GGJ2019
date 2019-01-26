@@ -31,6 +31,7 @@ public class EnemyScript : MonoBehaviour
             other.gameObject.GetComponent<InsideDungeonScript>().removeLifePoints(damage);
             Destroy(gameObject);
         }else if (other.gameObject.tag == "Attaque") {
+            GameObject.Find("Canvas").GetComponent<HUDScript>().addPointsToScore(10);
             die();
         }
     }
