@@ -14,7 +14,7 @@ public class EnemySpawnerScript : MonoBehaviour
     private float nextSpawnTime = 0.0f;
     private float period = 3f;
     private float distanceEntreDifferentEnemyQuiSpawnEnMemeTemp = 1;
-
+    private System.Random random = new System.Random();
     // Start is called before the first frame update
     void Start()
     {
@@ -32,8 +32,13 @@ public class EnemySpawnerScript : MonoBehaviour
     }
 
     void spawnEnemy(){
-        Vector3 spawnPosition = this.getRandomSpawnLine();
-        int amountOfEnemyToSpawn = RandomNumber(1,4);
+        int amountOfEnemyToSpawn    = random.Next(1,4)+ ( (int) Time.time/10 );
+        int randomSpawnPicker       = random.Next(0,3);
+        Vector3 spawnPosition       = linePositions[randomSpawnPicker];
+        
+        Debug.Log(amountOfEnemyToSpawn);
+        Debug.Log(randomSpawnPicker);
+
         // int amountOfEnemyToSpawn = RandomNumber(1,4) + ( (int) Time.time/10 );
         // Debug.Log(Time.time);
 
@@ -52,7 +57,7 @@ public class EnemySpawnerScript : MonoBehaviour
         }
     }
 
-    private Vector3 getRandomSpawnLine(){
+/*    private Vector3 getRandomSpawnLine(){
         int spawnValue = RandomNumber(0, 3);
 //        Debug.Log(spawnValue);
         return linePositions[spawnValue];
@@ -62,5 +67,5 @@ public class EnemySpawnerScript : MonoBehaviour
     {  
         System.Random random = new System.Random();
         return random.Next(min, max);  
-    }
+    }*/
 }
