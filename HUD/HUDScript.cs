@@ -59,7 +59,7 @@ public class HUDScript : MonoBehaviour
 
     	GameOverText.GetComponent<UnityEngine.UI.Text>().enabled = true;
     	RetryTextButton.GetComponent<UnityEngine.UI.Text>().enabled = true;
-        Time.timeScale = 0 ;
+        Time.timeScale = 0.1f ;
     }
 
     public void retryAction(){

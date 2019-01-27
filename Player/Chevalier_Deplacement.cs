@@ -13,7 +13,7 @@ public class Chevalier_Deplacement : MonoBehaviour
     
     private bool        echelleaporte                  = false;
     private bool        canUseAbility                  = false;
-    private Vector3     spawnPosition                   = new Vector3(-13, 1.5f, 0);
+    private Vector3     spawnPosition                   = new Vector3(-9, 1.5f, 0);
     public GameObject   bassinAnnimation;
 
     private float       timeToCastTP                  = 1f;
