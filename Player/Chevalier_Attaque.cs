@@ -34,16 +34,14 @@ public class Chevalier_Attaque : MonoBehaviour
             attaque = true;
 
             attaqueTimer = attaqueCooldown;
-
+            
             attaqueTrigger.enabled = true;
+            playAnnimationBassin();
             playHitSound();
         }
 
         if (attaque)
         {
-            Debug.Log("atk");
-            playAnnimationBassin();
-            Debug.Log("fin atk");
             if (attaqueTimer > 0)
             {
                 attaqueTimer -= Time.deltaTime;

@@ -14,6 +14,7 @@ public class Chevalier_Deplacement : MonoBehaviour
     private bool echelleaporte                  = false;
     private bool canUseAbility                  = false;
     private Vector3 spawnPosition               = new Vector3(-13, 1.5f, 0);
+    public GameObject bassinAnnimation;
 
     // Start is called before the first frame update
     void Start()
@@ -28,8 +29,19 @@ public class Chevalier_Deplacement : MonoBehaviour
         var x = Input.GetAxis("Horizontal") * Time.deltaTime * vitesse *-1;
         var y = Input.GetAxis("Vertical") * Time.deltaTime * vitesse *-1;
 
-        if (Input.GetAxis("Horizontal") < 0) { transform.eulerAngles = new Vector3(0, 180, 0); x = -x; }
-        else transform.eulerAngles = new Vector3(0, 0, 0); x = -x ;
+        if (Input.GetAxis("Horizontal") < 0) {
+            transform.eulerAngles = new Vector3(0, 180, 0); 
+            x = -x;
+        }else{
+            transform.eulerAngles = new Vector3(0, 0, 0); 
+            x = -x; 
+        }
+         
+
+
+        // if(Input.GetAxis("Horizontal") != 0){
+        //     playAnnimationWalk();
+        // }
 
         if (echelleaporte) {
             transform.Translate( x, y, 0);
@@ -74,7 +86,18 @@ public class Chevalier_Deplacement : MonoBehaviour
     void teleportToSpawn(){
         scoreDejaUtilise = score;
         GameObject.Find("CustumSoundManager").GetComponent<CustumSoundManagerScript>().playTeleportSound();
+        playAnnimationTP();
         gameObject.transform.position = spawnPosition;
         GameObject.Find("Canvas").GetComponent<HUDScript>().updateScore();
+    }
+
+
+
+    public void playAnnimationWalk(){
+        bassinAnnimation.GetComponent<Animator>().SetTrigger("Marche");
+    }
+
+    public void playAnnimationTP(){
+        bassinAnnimation.GetComponent<Animator>().SetTrigger("TP");
     }
 }
