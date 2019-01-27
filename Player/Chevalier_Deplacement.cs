@@ -4,17 +4,21 @@ using UnityEngine;
 
 public class Chevalier_Deplacement : MonoBehaviour
 {
-    public float vitesse                        = 10f;
-    public float scorePerEnemyKilled            = 100;
-    public float enemyNecessairePourFullRage    = 2;
+    public float        vitesse                        = 10f;
+    public float        scorePerEnemyKilled            = 100;
+    public float        enemyNecessairePourFullRage    = 2;
     
-    public float score                          = 0;
-    public float scoreDejaUtilise               = 0;
+    public float        score                          = 0;
+    public float        scoreDejaUtilise               = 0;
     
-    private bool echelleaporte                  = false;
-    private bool canUseAbility                  = false;
-    private Vector3 spawnPosition               = new Vector3(-13, 1.5f, 0);
-    public GameObject bassinAnnimation;
+    private bool        echelleaporte                  = false;
+    private bool        canUseAbility                  = false;
+    private Vector3     spawnPosition                   = new Vector3(-13, 1.5f, 0);
+    public GameObject   bassinAnnimation;
+
+    private float       timeToCastTP                  = 1f;
+    private float       timeTPCasted                  = 0;
+    private bool        isUsingTp                     = true;
 
     // Start is called before the first frame update
     void Start()
@@ -57,8 +61,25 @@ public class Chevalier_Deplacement : MonoBehaviour
         }
 
         if(canUseAbility && Input.GetKeyDown("space")){
-            teleportToSpawn();
+            isUsingTp       = true;
+            timeTPCasted    = Time.time;
+            GameObject.Find("CustumSoundManager").GetComponent<CustumSoundManagerScript>().playTeleportSound();
+            playAnnimationTP();
         }
+        if(isUsingTp && (timeTPCasted+timeToCastTP) < Time.time ){
+            teleportToSpawn();
+            isUsingTp = false;
+        }
+    }
+
+    void teleportToSpawn(){
+        scoreDejaUtilise = score;
+        gameObject.transform.position = spawnPosition;
+        GameObject.Find("Canvas").GetComponent<HUDScript>().updateScore();
+    }
+
+    public void playAnnimationTP(){
+        bassinAnnimation.GetComponent<Animator>().SetTrigger("TP");
     }
 
     void OnTriggerStay2D(Collider2D other)
@@ -83,21 +104,8 @@ public class Chevalier_Deplacement : MonoBehaviour
         score = score + scorePerEnemyKilled;
     }
 
-    void teleportToSpawn(){
-        scoreDejaUtilise = score;
-        GameObject.Find("CustumSoundManager").GetComponent<CustumSoundManagerScript>().playTeleportSound();
-        playAnnimationTP();
-        gameObject.transform.position = spawnPosition;
-        GameObject.Find("Canvas").GetComponent<HUDScript>().updateScore();
-    }
-
-
 
     public void playAnnimationWalk(){
         bassinAnnimation.GetComponent<Animator>().SetTrigger("Marche");
-    }
-
-    public void playAnnimationTP(){
-        bassinAnnimation.GetComponent<Animator>().SetTrigger("TP");
     }
 }

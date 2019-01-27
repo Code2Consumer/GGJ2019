@@ -36,6 +36,7 @@ public class EnemySpawnerScript : MonoBehaviour
 
     void spawnEnemy(){
         int amountOfEnemyToSpawn    = random.Next(1,4)+ ( (int) (Time.time-timeSinceNewSession) /10 );
+        amountOfEnemyToSpawn = amountOfEnemyToSpawn > 6 ? 6 : amountOfEnemyToSpawn;
         int randomSpawnPicker       = random.Next(0,3);
         Vector3 spawnPosition       = linePositions[randomSpawnPicker];
         
