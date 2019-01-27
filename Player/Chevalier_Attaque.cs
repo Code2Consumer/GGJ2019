@@ -30,7 +30,6 @@ public class Chevalier_Attaque : MonoBehaviour
     void Update()
     {
         if (Input.GetAxis("Fire1") != 0 && !attaque){
-            Debug.Log("fiya");
             attaque = true;
 
             attaqueTimer = attaqueCooldown;
@@ -42,6 +41,7 @@ public class Chevalier_Attaque : MonoBehaviour
 
         if (attaque)
         {
+            transform.Translate(0, 0, 0);
             if (attaqueTimer > 0)
             {
                 attaqueTimer -= Time.deltaTime;
@@ -62,8 +62,6 @@ public class Chevalier_Attaque : MonoBehaviour
     public void playAnnimationBassin()
     {
         //    gameObject.GetComponent<ChevalierAnnimationsScript>().GetComponent<Animator>().SetTrigger("Attaque");
-        Debug.Log("debut anim");
         bassinAnnimation.GetComponent<Animator>().SetTrigger("Attaque");
-        Debug.Log("fin anim");
     }
 }
