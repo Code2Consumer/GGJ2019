@@ -5,32 +5,34 @@ using UnityEngine;
 public class Chevalier_Attaque : MonoBehaviour
 {
 
-    private bool attaque = false;
+    public bool attaque = false;
 
     private float attaqueTimer = 0;
-    float attaqueCooldown = 0.3f;
+    public float attaqueCooldown = 0.3f;
 
     public Collider2D attaqueTrigger;
+    public GameObject bassinAnnimation;
 
-    private Animator anim;
+    //private Animator anim;
 
     void Awake()
     {
-        anim = gameObject.GetComponent<Animator>();
+        //anim = gameObject.GetComponent<Animator>();
         attaqueTrigger.enabled = false;
     }
     // Start is called before the first frame update
     void Start()
     {
-        
+        attaque = false;
     }
 
     // Update is called once per frame
     void Update()
     {
         if (Input.GetAxis("Fire1") != 0 && !attaque){
+            Debug.Log("fiya");
             attaque = true;
-            // anim.SetTrigger("Attaque");
+
             attaqueTimer = attaqueCooldown;
 
             attaqueTrigger.enabled = true;
@@ -39,7 +41,10 @@ public class Chevalier_Attaque : MonoBehaviour
 
         if (attaque)
         {
-            if(attaqueTimer > 0)
+            Debug.Log("atk");
+            playAnnimationBassin();
+            Debug.Log("fin atk");
+            if (attaqueTimer > 0)
             {
                 attaqueTimer -= Time.deltaTime;
             }
@@ -49,10 +54,18 @@ public class Chevalier_Attaque : MonoBehaviour
                 attaqueTrigger.enabled = false;
             }
         }
-        
-        
+
     }
+
     void playHitSound(){
         GameObject.Find("CustumSoundManager").GetComponent<CustumSoundManagerScript>().playAttack();
+    }
+
+    public void playAnnimationBassin()
+    {
+        //    gameObject.GetComponent<ChevalierAnnimationsScript>().GetComponent<Animator>().SetTrigger("Attaque");
+        Debug.Log("debut anim");
+        bassinAnnimation.GetComponent<Animator>().SetTrigger("Attaque");
+        Debug.Log("fin anim");
     }
 }
