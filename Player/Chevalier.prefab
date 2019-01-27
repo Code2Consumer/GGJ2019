@@ -67,6 +67,7 @@ GameObject:
   m_Component:
   - component: {fileID: 6288676947187736209}
   - component: {fileID: 6288676947187736210}
+  - component: {fileID: 847715301475421309}
   - component: {fileID: 6288676947187736206}
   - component: {fileID: 6288676947187736211}
   - component: {fileID: 6288676947187736208}
@@ -106,6 +107,22 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   vitesse: 7
+--- !u!114 &847715301475421309
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6288676947187736207}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8dbb66ff3ccfb3845a8591b8c5bcdeb1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  attaque: 0
+  attaqueCooldown: 1
+  attaqueTrigger: {fileID: 7726298725749620634}
+  bassinAnnimation: {fileID: 2580209941343423734}
 --- !u!212 &6288676947187736206
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -288,6 +305,12 @@ PrefabInstance:
 --- !u!4 &2580209939749788986 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 1792033090118006619, guid: ea99a011f8ac50d4cb5d68c7643f3b64,
+    type: 3}
+  m_PrefabInstance: {fileID: 4255949875424619105}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &2580209941343423734 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1792033089765615255, guid: ea99a011f8ac50d4cb5d68c7643f3b64,
     type: 3}
   m_PrefabInstance: {fileID: 4255949875424619105}
   m_PrefabAsset: {fileID: 0}

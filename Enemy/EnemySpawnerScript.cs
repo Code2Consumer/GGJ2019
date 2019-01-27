@@ -39,8 +39,8 @@ public class EnemySpawnerScript : MonoBehaviour
         int randomSpawnPicker       = random.Next(0,3);
         Vector3 spawnPosition       = linePositions[randomSpawnPicker];
         
-        Debug.Log(amountOfEnemyToSpawn);
-        Debug.Log(randomSpawnPicker);
+        //Debug.Log(amountOfEnemyToSpawn);
+        //Debug.Log(randomSpawnPicker);
 
         // int amountOfEnemyToSpawn = RandomNumber(1,4) + ( (int) Time.time/10 );
         // Debug.Log(Time.time);
