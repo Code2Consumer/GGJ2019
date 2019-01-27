@@ -13,6 +13,7 @@ GameObject:
   - component: {fileID: 3630541494047001196}
   - component: {fileID: 5305333751767987275}
   - component: {fileID: 1014062585386585818}
+  - component: {fileID: 2296927644849011658}
   m_Layer: 9
   m_Name: Enemy
   m_TagString: Untagged
@@ -50,6 +51,10 @@ MonoBehaviour:
   walkSpeed: 3
   damage: 1
   objectAnnimation: {fileID: 6664025932508341603}
+  gerrier: {fileID: 0}
+  tank: {fileID: 0}
+  sorciere: {fileID: 0}
+  canar: {fileID: 0}
 --- !u!212 &3630541494047001196
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -145,6 +150,25 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 9.033312, y: 16.396872}
   m_EdgeRadius: 0
+--- !u!95 &2296927644849011658
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2196498398858848264}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 5211e359bcbe2db4481c592e2df643d5, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!1001 &4197035204514818948
 PrefabInstance:
   m_ObjectHideFlags: 0

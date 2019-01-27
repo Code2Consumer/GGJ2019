@@ -9,13 +9,42 @@ public class EnemyScript : MonoBehaviour
     public int damage = 1;
     public GameObject objectAnnimation;
 
+
+
+    public GameObject gerrier;
+    public GameObject tank;
+    public GameObject sorciere;
+    public GameObject canar;
+    private System.Random random = new System.Random();
+
+    private GameObject  currentEnemy;
+    private string      curentSound;
+
+
+
     private bool isDead = false ;
     private float deathTime = 0;
     private float annimationDuration = 1f;
     // Start is called before the first frame update
     void Start()
     {
-
+        GameObject[] enemyTypes = {
+                gerrier,
+                tank,
+                sorciere,
+                canar,
+        };
+        string[] enemySounds =
+        {
+            "Kill",
+            "Kill",
+            "Kill_Girl",
+            "Kill_Duck"
+        };
+        int randomEnemyValue = random.Next(0, 3);
+        currentEnemy = enemyTypes[randomEnemyValue];
+        int randomEnemySoundValue = random.Next(0, 3);
+        curentSound = enemySounds[randomEnemySoundValue];
     }
 
     // Update is called once per frame
