@@ -12,10 +12,44 @@ public class EnemyScript : MonoBehaviour
     private bool isDead = false ;
     private float deathTime = 0;
     private float annimationDuration = 1f;
+
+    public GameObject gerrier;
+    public GameObject tank;
+    public GameObject sorciere;
+    public GameObject canar;
+    private System.Random random = new System.Random();
+
+    private GameObject  currentEnemy;
+    private string      curentSound;
+
     // Start is called before the first frame update
     void Start()
     {
+        GameObject[] enemyTypes = 
+        {
+                gerrier,
+                tank,
+                sorciere,
+                canar,
+        };
+        string[] enemySounds =
+        {
+            "Kill",
+            "Kill",
+            "Kill_Girl",
+            "Kill_Duck"
+        };
+        int randomEnemyValue = random.Next(0, 4);
+        currentEnemy = enemyTypes[randomEnemyValue];
+        int randomEnemySoundValue = random.Next(0, 3);
+        curentSound = enemySounds[randomEnemySoundValue];
 
+        for (int i = 0; i < enemyTypes.Length; i++)
+        {
+            enemyTypes[i].SetActive(false);
+        }
+        currentEnemy.SetActive(true);
+        objectAnnimation = currentEnemy;
     }
 
     // Update is called once per frame
@@ -50,7 +84,7 @@ public class EnemyScript : MonoBehaviour
     }
 
     void die(){
-        GameObject.Find("CustumSoundManager").GetComponent<CustumSoundManagerScript>().playKill();
+        GameObject.Find("CustumSoundManager").GetComponent<CustumSoundManagerScript>().playSpecialSound(curentSound);
         objectAnnimation.GetComponent<Animator>().SetTrigger("IsDead");
         gameObject.GetComponent<Collider2D>().enabled = false ;
         isDead = true;

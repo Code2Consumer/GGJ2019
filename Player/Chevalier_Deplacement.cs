@@ -6,7 +6,7 @@ public class Chevalier_Deplacement : MonoBehaviour
 {
     public float        vitesse                        = 10f;
     public float        scorePerEnemyKilled            = 100;
-    public float        enemyNecessairePourFullRage    = 2;
+    public float        enemyNecessairePourFullRage    = 7;
     
     public float        score                          = 0;
     public float        scoreDejaUtilise               = 0;
@@ -62,7 +62,7 @@ public class Chevalier_Deplacement : MonoBehaviour
             canUseAbility = false;
         }
 
-        if(canUseAbility && Input.GetKeyDown("space")){
+        if(canUseAbility && ( Input.GetKeyDown(KeyCode.Space) || Input.GetAxis("Fire2")!=0 ) ){
             isUsingTp       = true;
             timeTPCasted    = Time.time;
             GameObject.Find("CustumSoundManager").GetComponent<CustumSoundManagerScript>().playTeleportSound();
@@ -78,6 +78,7 @@ public class Chevalier_Deplacement : MonoBehaviour
         scoreDejaUtilise = score;
         gameObject.transform.position = spawnPosition;
         GameObject.Find("Canvas").GetComponent<HUDScript>().updateScore();
+        enemyNecessairePourFullRage = enemyNecessairePourFullRage + 1 ;
     }
 
     public void playAnnimationTP(){

@@ -48,4 +48,8 @@ public class CustumSoundManagerScript : MonoBehaviour
     public void playTeleportSound(){
 		AkSoundEngine.PostEvent( "Teleport", gameObject);
     }
+
+    public void playSpecialSound(string Sound){
+		AkSoundEngine.PostEvent( Sound, gameObject);	
+    }
 }

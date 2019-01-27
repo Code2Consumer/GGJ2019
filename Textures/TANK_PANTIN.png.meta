@@ -1,0 +1,330 @@
+fileFormatVersion: 2
+guid: 07292d413474e744c9325151d1188e40
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: Bouclier
+    21300002: Corps
+    21300004: "T\xEAte"
+    21300006: Tibia Fond
+    21300008: Bras Front
+    21300010: Jambe Fond
+    21300012: Tibia Front
+    21300014: Jambe Front
+    21300016: Bras Fond
+    21300018: Pied Fond
+    21300020: ied Front
+  externalObjects: {}
+  serializedVersion: 7
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - serializedVersion: 2
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - serializedVersion: 2
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Bouclier
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 94
+        width: 29
+        height: 159
+      alignment: 9
+      pivot: {x: 0.9781448, y: 0.49292895}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fc63ca08afb94a14cab37c9d75368851
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Corps
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 88
+        width: 118
+        height: 153
+      alignment: 9
+      pivot: {x: 0.54446334, y: 0.039507896}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: be0b157a035134a4cb3de3288ebb3019
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "T\xEAte"
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 170
+        width: 40
+        height: 38
+      alignment: 9
+      pivot: {x: 0.4906315, y: 0.036478143}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0702f8f57197377408970a53d55989e6
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tibia Fond
+      rect:
+        serializedVersion: 2
+        x: 12
+        y: 36
+        width: 24
+        height: 51
+      alignment: 9
+      pivot: {x: 0.54684526, y: 0.815976}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c252a1f765dcd684e97bdd32780d6bc1
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bras Front
+      rect:
+        serializedVersion: 2
+        x: 216
+        y: 85
+        width: 28
+        height: 67
+      alignment: 9
+      pivot: {x: 0.2055446, y: 0.9139163}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e18bfe0235d8d6e4db4cfce75eb352e3
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jambe Fond
+      rect:
+        serializedVersion: 2
+        x: 53
+        y: 28
+        width: 16
+        height: 57
+      alignment: 9
+      pivot: {x: 0.42973185, y: 0.8813369}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d745b59437a8b5441a9fbc3565634d12
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tibia Front
+      rect:
+        serializedVersion: 2
+        x: 122
+        y: 4
+        width: 24
+        height: 49
+      alignment: 9
+      pivot: {x: 0.5780754, y: 0.88240993}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 14ec91a7a4f28fa4ab7189fff9e03156
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jambe Front
+      rect:
+        serializedVersion: 2
+        x: 167
+        y: 2
+        width: 30
+        height: 59
+      alignment: 9
+      pivot: {x: 0.41255596, y: 0.9065216}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c1ed662600e9881448341e8e6146fa75
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bras Fond
+      rect:
+        serializedVersion: 2
+        x: 212
+        y: 8
+        width: 28
+        height: 68
+      alignment: 9
+      pivot: {x: 0.83460945, y: 0.9078293}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 360ebf3c65e111a47bff68fa8336944c
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pied Fond
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 0
+        width: 38
+        height: 27
+      alignment: 9
+      pivot: {x: 0.78600264, y: 0.40283868}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3121206e8012a5446a86024bc40b7079
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ied Front
+      rect:
+        serializedVersion: 2
+        x: 73
+        y: 1
+        width: 36
+        height: 26
+      alignment: 9
+      pivot: {x: 0.7914817, y: 0.3991024}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2fad556d6038bfa4482b5e494822f087
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: e900ba23e3082564ca4d710c8be7a42a
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
