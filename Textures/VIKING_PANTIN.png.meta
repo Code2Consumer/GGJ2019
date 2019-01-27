@@ -1,0 +1,481 @@
+fileFormatVersion: 2
+guid: c4bb6414a715c8b41a449f31f2586001
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: Barbiche
+    21300002: Tete
+    21300004: Abdomen
+    21300006: Casque
+    21300008: "Ep\xE9e"
+    21300010: Bras Front
+    21300012: Corps
+    21300014: Bras Fond
+    21300016: Epaulette Front
+    21300018: Main Fond
+    21300020: Cuisse Fond
+    21300022: Main Front
+    21300024: Epaulette Fond
+    21300026: Tibia Front
+    21300028: Cuisse Front
+    21300030: Tibia Fond
+    21300032: VIKING_PANTIN_16
+    21300034: VIKING_PANTIN_17
+    21300036: Pied Front
+    21300038: VIKING_PANTIN_19
+    21300040: VIKING_PANTIN_20
+    21300042: Pied Fond
+  externalObjects: {}
+  serializedVersion: 7
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - serializedVersion: 2
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - serializedVersion: 2
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Barbiche
+      rect:
+        serializedVersion: 2
+        x: 46
+        y: 458
+        width: 124
+        height: 157
+      alignment: 9
+      pivot: {x: 0.7292434, y: 0.87418747}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 71736a0d604a6ea4b8f1671f66058532
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tete
+      rect:
+        serializedVersion: 2
+        x: 234
+        y: 522
+        width: 89
+        height: 78
+      alignment: 9
+      pivot: {x: 0.50000036, y: 0.050526153}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cb41173490ec40149b26a190d408d410
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Abdomen
+      rect:
+        serializedVersion: 2
+        x: 386
+        y: 491
+        width: 147
+        height: 123
+      alignment: 9
+      pivot: {x: 0.70626706, y: 0.13793226}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 32fd57fb0351e9a43839673af424be29
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Casque
+      rect:
+        serializedVersion: 2
+        x: 568
+        y: 538
+        width: 112
+        height: 76
+      alignment: 9
+      pivot: {x: 0.45769882, y: 0.11350371}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 54313b95f2ebcb642bbbe5be3803cc71
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Ep\xE9e"
+      rect:
+        serializedVersion: 2
+        x: 99
+        y: 283
+        width: 71
+        height: 179
+      alignment: 9
+      pivot: {x: 0.4733085, y: 0.0024095247}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4642f722539e5414c920763cc8566e34
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bras Front
+      rect:
+        serializedVersion: 2
+        x: 220
+        y: 326
+        width: 80
+        height: 131
+      alignment: 9
+      pivot: {x: 0.54737663, y: 0.84718984}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9957a3102a0bbae448dd9bcd74bc58ca
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Corps
+      rect:
+        serializedVersion: 2
+        x: 323
+        y: 296
+        width: 117
+        height: 176
+      alignment: 9
+      pivot: {x: 0.5242959, y: 0.101602726}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 84a88c1939f9d0d4c8043b828d248e56
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bras Fond
+      rect:
+        serializedVersion: 2
+        x: 464
+        y: 326
+        width: 80
+        height: 131
+      alignment: 9
+      pivot: {x: 0.4289341, y: 0.84718984}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c0f8e93226df5f044b407c6307aa912f
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Epaulette Front
+      rect:
+        serializedVersion: 2
+        x: 578
+        y: 407
+        width: 90
+        height: 62
+      alignment: 9
+      pivot: {x: 0.1525689, y: 0.34717092}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eca47e41e878a4947a9fc2fdea75a8f6
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Main Fond
+      rect:
+        serializedVersion: 2
+        x: 260
+        y: 176
+        width: 67
+        height: 118
+      alignment: 9
+      pivot: {x: 0.64095753, y: 0.9243728}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2879f5b518f779f4aa7eb2288b33b2a2
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cuisse Fond
+      rect:
+        serializedVersion: 2
+        x: 503
+        y: 156
+        width: 60
+        height: 142
+      alignment: 9
+      pivot: {x: 0.5, y: 0.8469862}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8ff6e270dd38fc14888851790edf4a46
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Main Front
+      rect:
+        serializedVersion: 2
+        x: 623
+        y: 257
+        width: 67
+        height: 118
+      alignment: 9
+      pivot: {x: 0.4018418, y: 0.940327}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8eaf44035cca9b941a38447373e14aa1
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Epaulette Fond
+      rect:
+        serializedVersion: 2
+        x: 35
+        y: 173
+        width: 90
+        height: 62
+      alignment: 9
+      pivot: {x: 0.74214894, y: 0.3624541}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 183b83dd2f56c814d8bb0ca5c0192b31
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tibia Front
+      rect:
+        serializedVersion: 2
+        x: 171
+        y: 64
+        width: 82
+        height: 161
+      alignment: 9
+      pivot: {x: 0.6039981, y: 0.67656004}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ae3e7a78a68b04649af6b030b8b460e2
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cuisse Front
+      rect:
+        serializedVersion: 2
+        x: 380
+        y: 93
+        width: 60
+        height: 142
+      alignment: 9
+      pivot: {x: 0.45262298, y: 0.88035023}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8c30a1a3b0f42054697251e8e09415ab
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tibia Fond
+      rect:
+        serializedVersion: 2
+        x: 615
+        y: 61
+        width: 82
+        height: 161
+      alignment: 9
+      pivot: {x: 0.6733302, y: 0.64713347}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f3c0d877fb3903340b60135668659286
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pied Front
+      rect:
+        serializedVersion: 2
+        x: 52
+        y: 44
+        width: 111
+        height: 71
+      alignment: 9
+      pivot: {x: 0.7219461, y: 0.7802579}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a886e0c66cd942a49a76aeb0ca58b850
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pied Fond
+      rect:
+        serializedVersion: 2
+        x: 457
+        y: 44
+        width: 111
+        height: 71
+      alignment: 9
+      pivot: {x: 0.72194636, y: 0.75356656}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 36d085109d776c6429c7481a3658f9f1
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 83b9ab9f8821b184cb3f9dcc83c036c5
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -6,9 +6,9 @@ public class EnemySpawnerScript : MonoBehaviour
 {
 
     private Vector3[] linePositions = {
-            new Vector3(24, 9, 0),
-            new Vector3(24, 2, 0),
-            new Vector3(24, -4, 0)
+            new Vector3(35, 11, 0),
+            new Vector3(35, 4, 0),
+            new Vector3(35, -4, 0)
         };
     public  GameObject  enemyObject;
     private float nextSpawnTime = 0.0f;
