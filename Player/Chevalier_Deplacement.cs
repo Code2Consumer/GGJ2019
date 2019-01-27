@@ -31,7 +31,7 @@ public class Chevalier_Deplacement : MonoBehaviour
     {
 
         var x = Input.GetAxis("Horizontal") * Time.deltaTime * vitesse *-1;
-        var y = Input.GetAxis("Vertical") * Time.deltaTime * vitesse *-1;
+        var y = Input.GetAxis("Vertical") * Time.deltaTime * vitesse;
 
         if(!isUsingTp){
             if (Input.GetAxis("Horizontal") < 0) {
