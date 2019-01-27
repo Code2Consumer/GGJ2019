@@ -25,7 +25,9 @@ public class EnemyScript : MonoBehaviour
     }
 
     void walkLeft(){
-        transform.Translate(Vector3.left * Time.deltaTime * walkSpeed);
+        if(!isDead){
+            transform.Translate(Vector3.left * Time.deltaTime * walkSpeed);
+        }
     }
 
 
@@ -50,7 +52,7 @@ public class EnemyScript : MonoBehaviour
     void die(){
         GameObject.Find("CustumSoundManager").GetComponent<CustumSoundManagerScript>().playKill();
         objectAnnimation.GetComponent<Animator>().SetTrigger("IsDead");
-        gameObject.GetComponent<Rigidbody2D>().isKinematic = false ;
+        gameObject.GetComponent<Collider2D>().enabled = false ;
         isDead = true;
         deathTime = Time.time;
     }

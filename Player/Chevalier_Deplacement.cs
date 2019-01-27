@@ -31,7 +31,7 @@ public class Chevalier_Deplacement : MonoBehaviour
 
         if (Input.GetAxis("Horizontal") < 0) {
             transform.eulerAngles = new Vector3(0, 180, 0); 
-            x = -x;
+            x = x;
         }else{
             transform.eulerAngles = new Vector3(0, 0, 0); 
             x = -x; 
@@ -39,9 +39,9 @@ public class Chevalier_Deplacement : MonoBehaviour
          
 
 
-        // if(Input.GetAxis("Horizontal") != 0){
-        //     playAnnimationWalk();
-        // }
+        if(Input.GetAxis("Horizontal") != 0){
+            playAnnimationWalk();
+        }
 
         if (echelleaporte) {
             transform.Translate( x, y, 0);

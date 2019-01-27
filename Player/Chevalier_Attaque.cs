@@ -8,7 +8,7 @@ public class Chevalier_Attaque : MonoBehaviour
     public bool attaque = false;
 
     private float attaqueTimer = 0;
-    public float attaqueCooldown = 0.3f;
+    public float attaqueCooldown = 0.5f;
 
     public Collider2D attaqueTrigger;
     public GameObject bassinAnnimation;
