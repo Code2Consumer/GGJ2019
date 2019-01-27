@@ -33,24 +33,26 @@ public class Chevalier_Deplacement : MonoBehaviour
         var x = Input.GetAxis("Horizontal") * Time.deltaTime * vitesse *-1;
         var y = Input.GetAxis("Vertical") * Time.deltaTime * vitesse *-1;
 
-        if (Input.GetAxis("Horizontal") < 0) {
-            transform.eulerAngles = new Vector3(0, 180, 0); 
-            x = x;
-        }else{
-            transform.eulerAngles = new Vector3(0, 0, 0); 
-            x = -x; 
-        }
-         
+        if(!isUsingTp){
+            if (Input.GetAxis("Horizontal") < 0) {
+                transform.eulerAngles = new Vector3(0, 180, 0); 
+                x = x;
+            }else{
+                transform.eulerAngles = new Vector3(0, 0, 0); 
+                x = -x; 
+            }
+             
 
 
-        if(Input.GetAxis("Horizontal") != 0){
-            playAnnimationWalk();
-        }
+            if(Input.GetAxis("Horizontal") != 0){
+                playAnnimationWalk();
+            }
 
-        if (echelleaporte) {
-            transform.Translate( x, y, 0);
-        }else{
-            transform.Translate(x, 0, 0);
+            if (echelleaporte) {
+                transform.Translate( x, y, 0);
+            }else{
+                transform.Translate(x, 0, 0);
+            }
         }
 
 

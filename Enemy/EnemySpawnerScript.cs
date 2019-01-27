@@ -13,7 +13,7 @@ public class EnemySpawnerScript : MonoBehaviour
     public  GameObject  enemyObject;
     private float nextSpawnTime = 0.0f;
     private float period = 3f;
-    private float distanceEntreDifferentEnemyQuiSpawnEnMemeTemp = 1;
+    private float distanceEntreDifferentEnemyQuiSpawnEnMemeTemp = 2f;
     private float timeSinceNewSession = 0;
 
     private System.Random random = new System.Random();

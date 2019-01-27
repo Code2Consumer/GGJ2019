@@ -12,7 +12,7 @@ public class HUDScript : MonoBehaviour
 
 	private float rageBarOriginalWidth 	= 0;
 	private float rageBarOriginalHeight = 0;
-	private int scoreTotal 			= 0;
+	private int scoreTotal 			     = 0;
 	
 	// public float val = 0;
 
@@ -48,7 +48,7 @@ public class HUDScript : MonoBehaviour
     public void updateScore(){
     	float score = GameObject.Find("Chevalier").GetComponent<Chevalier_Deplacement>().score;
     	float scoreDejaUtilisee = GameObject.Find("Chevalier").GetComponent<Chevalier_Deplacement>().scoreDejaUtilise;
-    	ScoreText.GetComponent<UnityEngine.UI.Text>().text = "Score:"+score;
+    	ScoreText.GetComponent<UnityEngine.UI.Text>().text = score+"";
     	float scorePercenage = ( (score-scoreDejaUtilisee) / GameObject.Find("Chevalier").GetComponent<Chevalier_Deplacement>().scorePerEnemyKilled ) / 
     	GameObject.Find("Chevalier").GetComponent<Chevalier_Deplacement>().enemyNecessairePourFullRage;
     	updateRageBar(scorePercenage);
@@ -59,9 +59,11 @@ public class HUDScript : MonoBehaviour
 
     	GameOverText.GetComponent<UnityEngine.UI.Text>().enabled = true;
     	RetryTextButton.GetComponent<UnityEngine.UI.Text>().enabled = true;
+        Time.timeScale = 0 ;
     }
 
     public void retryAction(){
+        Time.timeScale = 1;
     	Application.LoadLevel(Application.loadedLevel);
     }
 
